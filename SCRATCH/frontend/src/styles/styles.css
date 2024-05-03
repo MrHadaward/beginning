@@ -1,0 +1,89 @@
+/*
+  Fonts
+*/
+
+@font-face {
+  font-family: IBMPlexMono;
+  src: url('./fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf');
+}
+
+@font-face {
+  font-family: IBMPlexMono;
+  src: url('./fonts/IBM_Plex_Mono/IBMPlexMono-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: IBMPlexMono;
+  src: url('./fonts/IBM_Plex_Mono/IBMPlexMono-Italic.ttf');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: IBMPlexMono;
+  src: url('./fonts/IBM_Plex_Mono/IBMPlexMono-BoldItalic.ttf');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: IBMPlexMono;
+  src: url('./fonts/IBM_Plex_Mono/IBMPlexMono-Thin.ttf');
+  font-weight: 100;
+}
+
+/*
+  General
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:  IBMPLexMono;
+  min-height: 100vh;
+  position: relative;
+  background-color: rgb( 0, 0, 25);
+}
+
+main {
+  position: absolute;
+  width: 25rem;
+  text-align: center;
+  border-radius: .5rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  padding: 1rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+img {
+  width: 5rem; 
+}
+
+button {
+  margin-top: 2rem;
+  border: none;
+  cursor: pointer;
+  transition: opacity .2s;
+}
+
+button:hover {
+  opacity: 80%;
+}
+
+/*
+  Styles
+*/
+
+.restart {
+  width: 3rem;
+}
